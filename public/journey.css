@@ -1,0 +1,137 @@
+/* Original illustrated public atlas. Kept separate from the research tools. */
+.vx-main.jl-main{max-width:1640px;padding:26px 30px 32px}
+.jl-world{--jl-ink:#244238;--jl-muted:#66776a;--jl-paper:#f4f2e5;background:var(--jl-paper);color:var(--jl-ink);border-radius:20px;padding:35px 35px 0;overflow:hidden;color-scheme:light}
+.jl-world a:focus-visible{outline:3px solid #d5913c;outline-offset:5px}
+.jl-intro-heading,.jl-map-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px}
+.jl-eyebrow{font-size:11px;font-weight:650;letter-spacing:.13em;line-height:1.5;color:#687b67;margin:0 0 13px;display:flex;align-items:center;gap:8px}
+.jl-eyebrow>span{width:6px;height:6px;background:#738d60;border-radius:50%;display:inline-block}
+.jl-world h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.055em;font-size:clamp(34px,4.2vw,58px);line-height:1.08;color:#254237;margin:0}
+.jl-world h1 em{font-weight:400;color:#729163}
+.jl-intro-copy{font-size:15px;color:#6c7b6c;line-height:1.55;margin-top:13px}
+.jl-compass{display:flex;gap:13px;align-items:center;margin-right:7px;color:#71876b;flex-shrink:0}
+.jl-compass>svg{width:47px;height:47px}
+.jl-compass>span{font-size:9px;line-height:1.8;letter-spacing:.16em}
+.jl-entrance-scene,.jl-map-scene{margin:0;position:relative}
+.jl-entrance-art,.jl-map-art{display:block;width:100%;height:auto;overflow:visible}
+.jl-entrance-art{background:#e9e4cd;border-radius:22px}
+.jl-world svg text{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;pointer-events:none}
+.jl-world svg text:not([fill]){fill:var(--jl-ink)}
+.jl-art-kicker{font-size:11px;font-weight:650;letter-spacing:1.8px}
+.jl-art-label{font-family:Georgia,'Times New Roman',serif!important;font-size:29px;letter-spacing:-.7px}
+.jl-art-pill{font-size:14px;font-weight:550}
+.jl-art-small{font-size:12px;letter-spacing:.8px;font-weight:500}
+.jl-scene-link{cursor:pointer;outline:none}
+.jl-scene-link .jl-segment{transition:filter .2s ease}
+.jl-scene-link:hover .jl-segment,.jl-scene-link:focus-visible .jl-segment{filter:brightness(1.045) saturate(1.14)}
+.jl-scene-link:focus-visible{outline:2px solid #b6782b;outline-offset:3px}
+.jl-heart-window>g{transition:filter .2s}
+.jl-heart-window:hover>g,.jl-heart-window:focus-visible>g{filter:drop-shadow(0 5px 8px #27453238)}
+.jl-scene-caption,.jl-map-caption{display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:11px;color:#77816f;line-height:1.5;padding:15px 1px 18px}
+.jl-scene-caption>span:first-child,.jl-map-caption>span:first-child{display:flex;align-items:center;gap:7px}
+.jl-dot{display:inline-block;flex:none;width:7px;height:7px;border-radius:50%;background:#6e9766}
+.jl-world-shortcuts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #d9dec9;margin-top:2px;padding:0 0 1px}
+.jl-world-shortcuts a{min-height:75px;display:flex;align-items:center;gap:11px;font-size:13px;border-right:1px solid #d9dec9;padding:14px 20px}
+.jl-world-shortcuts a:first-child{padding-left:1px}
+.jl-world-shortcuts a:last-child{border-right:0;padding-right:0}
+.jl-world-shortcuts a>span{font-size:10px;color:#829178;letter-spacing:.07em}
+.jl-world-shortcuts a:hover{color:#8c783f}
+.jl-back{display:inline-flex;align-items:center;gap:8px;min-height:30px;font-size:12px;color:#5e7564;margin-bottom:14px}
+.jl-back:hover{color:#2c4935;text-decoration:underline;text-underline-offset:4px}
+.jl-back-dot{display:inline-block;width:7px;height:7px;border:1px solid #688565;border-radius:50%;position:relative}
+.jl-back-dot:before{content:'';position:absolute;right:11px;top:2px;width:9px;border-top:1px solid #688565}
+.jl-map-heading{align-items:flex-end;margin-bottom:24px}
+.jl-map-heading .jl-back{padding-left:17px}
+.jl-map-heading .jl-eyebrow{margin-bottom:9px}
+.jl-map-heading h1{font-size:clamp(33px,4vw,53px)}
+.jl-cloud-header{display:flex;align-items:center;gap:11px;background:#e8ead9;border:1px solid #d4ddc8;border-radius:17px;padding:15px 20px;margin-bottom:2px;min-width:154px;color:#4f765f;transition:background .2s}
+.jl-cloud-header:hover{background:#dce5ce}
+.jl-cloud-header>svg{width:35px;height:35px}
+.jl-cloud-header>span{font-size:15px;font-weight:550}
+.jl-cloud-header small{display:block;font-size:8px;letter-spacing:.14em;margin-top:5px;color:#7b8e75}
+.jl-map-art{border-radius:22px;background:#badcdb}
+.jl-map-sea-label{font-family:Georgia,'Times New Roman',serif!important;font-style:italic;font-size:21px;fill:#4b8590!important;opacity:.75}
+.jl-map-road-label{font-size:21px;font-weight:600;fill:#fffdf3!important;letter-spacing:-.3px}
+.jl-map-stop-title{font-size:17px;font-weight:600}
+.jl-map-stop-small{font-size:11px;fill:#80916b!important}
+.jl-board-title{font-size:24px;font-weight:550;letter-spacing:-.7px;fill:#fff8e2!important}
+.jl-board-sub{font-size:12px;font-weight:450;letter-spacing:1.5px;fill:#c9dbc0!important}
+.jl-cloud-label{font-size:19px;fill:#528076!important;font-family:Georgia,'Times New Roman',serif!important;font-style:italic}
+.jl-map-cloud{transform-box:fill-box;transform-origin:center;animation:jl-cloud-drift 8s ease-in-out infinite}
+.jl-map-cloud:hover,.jl-map-cloud:focus-visible{filter:drop-shadow(0 3px 6px #41694a30)}
+.jl-waypoint-halo{transform-box:fill-box;transform-origin:center;animation:jl-halo 3s ease-in-out infinite}
+.jl-map-road{outline:none;cursor:pointer}
+.jl-road-outline,.jl-road-fill{transition:stroke .2s}
+.jl-map-road:hover .jl-road-outline,.jl-map-road:focus-visible .jl-road-outline{stroke:#155b91;stroke-width:25px}
+.jl-map-road:hover .jl-road-fill,.jl-map-road:focus-visible .jl-road-fill{stroke:#54b4ed}
+.jl-board-sign>g,.jl-map-stop>g{transition:filter .2s}
+.jl-board-sign:hover>g,.jl-board-sign:focus-visible>g,.jl-map-stop:hover>g,.jl-map-stop:focus-visible>g{filter:drop-shadow(0 5px 5px #28543455)}
+.jl-destinations{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #d9dec9;margin-top:1px}
+.jl-destinations>a{display:flex;align-items:center;gap:12px;padding:25px 18px 26px;border-right:1px solid #d9dec9;min-width:0}
+.jl-destinations>a:first-child{padding-left:0}
+.jl-destinations>a:last-child{border:0;padding-right:0}
+.jl-destinations>a>div{min-width:0}
+.jl-destinations strong{font-size:13px;font-weight:600;display:block;line-height:1.5}
+.jl-destinations a>div>span{font-size:11px;color:#78836f;display:block;line-height:1.5;margin-top:3px}
+.jl-destination-icon{background:#dde5d2;border-radius:11px;color:#648264;display:flex;align-items:center;justify-content:center;flex-shrink:0;width:43px;height:43px}
+.jl-destination-icon svg{width:26px;height:26px}
+.jl-destination-icon.jl-blue{background:#d5e8e8;color:#5289a0}
+.jl-destination-icon.jl-gold{background:#ede2c6;color:#a48b55}
+.jl-destination-number{font-size:10px;color:#9aa28d;margin-left:auto;align-self:flex-start;padding-top:3px}
+.jl-destinations>a:hover strong{text-decoration:underline;text-underline-offset:4px}
+.jl-subpage-top{display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid #d9dec9;padding-bottom:20px}
+.jl-subpage-top .jl-back{padding-left:17px;margin:0}
+.jl-status-pill{border:1px solid #cfdac1;background:#e7ecda;color:#778669;padding:6px 10px;border-radius:5px;font-size:9px;font-weight:600;letter-spacing:.1em}
+.jl-cloud-hero{display:grid;grid-template-columns:1.05fr 1fr;gap:15px;align-items:center;padding:38px 0 24px;min-height:430px}
+.jl-cloud-copy h1{font-size:clamp(39px,4.4vw,58px)}
+.jl-cloud-copy>p:not(.jl-eyebrow):not(.jl-availability){font-size:16px;color:#71806d;line-height:1.8;max-width:450px;margin:22px 0 27px}
+.jl-cloud-illustration>svg{width:100%;height:auto;overflow:visible}
+.jl-cloud-actions{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.jl-action{font-size:14px;font-weight:500;background:#2f5844;color:#fbf6e4;min-height:47px;border-radius:8px;padding:13px 19px;display:inline-flex;align-items:center;justify-content:center;line-height:1.45}
+.jl-action:hover{background:#476d4d}
+.jl-quiet-action{font-size:13px;font-weight:500;min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:5px;text-decoration-color:#adb99c}
+.jl-availability{font-size:11px;line-height:1.6;color:#829077;margin-top:20px;display:flex;gap:7px;align-items:baseline}
+.jl-availability>span{width:6px;height:6px;border-radius:50%;background:#bca266;display:inline-block;flex-shrink:0}
+.jl-cloud-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #d9dec9;border-bottom:1px solid #d9dec9;padding:25px 0;margin-bottom:20px}
+.jl-cloud-steps>article{padding:0 26px;border-right:1px solid #d9dec9;display:flex;align-items:flex-start;flex-direction:column}
+.jl-cloud-steps>article:first-child{padding-left:0}
+.jl-cloud-steps>article:last-child{padding-right:0;border:0}
+.jl-cloud-steps>article>span:first-child{font-family:Georgia,serif;font-size:27px;font-style:italic;color:#9caa8b;margin-bottom:16px}
+.jl-cloud-steps h2{font-family:Georgia,serif;font-size:23px;font-weight:400;letter-spacing:-.03em}
+.jl-cloud-steps p{font-size:14px;line-height:1.7;color:#798372;margin:13px 0 18px}
+.jl-cloud-steps a{font-size:13px;border-bottom:1px solid #a9b699;padding-bottom:4px;margin-top:auto;min-height:29px}
+.jl-planned-label{font-size:9px;letter-spacing:.13em;padding:5px 8px;border:1px solid #d8dbc5;border-radius:4px;color:#879276;margin-top:auto}
+.jl-cloud-note{color:#8a927f;text-align:center;font-size:11px;line-height:1.6;padding:1px 0 23px}
+.jl-floating-cloud{animation:jl-cloud-drift 8s ease-in-out infinite}
+.jl-future-layout{display:grid;grid-template-columns:1fr 1.05fr;gap:38px;align-items:center;padding:25px 0 42px;min-height:480px}
+.jl-future-illustration svg{width:100%;height:auto}
+.jl-future-copy h1{font-size:clamp(34px,3.5vw,48px)}
+.jl-future-copy>p:not(.jl-eyebrow){font-size:15px;color:#75836d;line-height:1.8;margin:22px 0}
+.jl-future-status{display:flex;align-items:center;gap:12px;padding:17px 0;border-top:1px solid #d6ddc8;border-bottom:1px solid #d6ddc8;margin:24px 0}
+.jl-future-status>.jl-dot{background:#c9ab65}
+.jl-future-status strong{display:block;font-size:13px;font-weight:550}
+.jl-future-status div>span{display:block;font-size:12px;color:#849078;margin-top:4px;line-height:1.6}
+.jl-future-copy .jl-cloud-actions{gap:16px}
+.jl-future-copy .jl-action{font-size:13px;padding:12px 15px}
+.jl-future-copy .jl-quiet-action{font-size:12px}
+.jl-future-foot{display:flex;gap:24px;align-items:center;border-top:1px solid #d9dec9;padding:24px 0;font-size:11px;color:#7e8971;line-height:1.6}
+.jl-future-foot>span{margin-right:auto;font-family:Georgia,serif;font-size:18px;font-style:italic;color:#91a17e}
+.jl-future-foot>a{border-bottom:1px solid #c1cbb2;padding-bottom:3px}
+@keyframes jl-cloud-drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes jl-halo{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:.18;transform:scale(1.2)}}
+@media(min-width:1550px){.vx-main.jl-main{padding:32px 38px}.jl-world{padding:39px 42px 0}.jl-world h1{font-size:60px}}
+@media(max-width:1180px){.vx-main.jl-main{padding:24px}.jl-world{padding:28px 25px 0}.jl-intro-heading{gap:15px}.jl-compass>span{display:none}.jl-world h1{font-size:42px}.jl-world-shortcuts a{padding:13px;font-size:11px;gap:7px}.jl-scene-caption,.jl-map-caption{font-size:10px}.jl-destinations>a{gap:9px;padding:20px 13px}.jl-destinations strong{font-size:11px}.jl-destinations a>div>span{font-size:10px}.jl-destination-icon{width:34px;height:37px}.jl-destination-number{display:none}.jl-cloud-hero{grid-template-columns:1.1fr 1fr;gap:0;min-height:390px}.jl-cloud-copy h1{font-size:43px}.jl-cloud-copy>p:not(.jl-eyebrow):not(.jl-availability){font-size:15px}.jl-cloud-actions{gap:12px}.jl-action{font-size:13px;padding:12px 14px}.jl-quiet-action{font-size:12px}.jl-cloud-steps>article{padding:0 19px}.jl-cloud-steps h2{font-size:20px}.jl-future-layout{gap:22px}.jl-future-copy h1{font-size:36px}}
+@media(max-width:900px){.jl-compass{display:none}.jl-world h1{font-size:39px}.jl-cloud-header{min-width:128px;padding:12px;gap:9px}.jl-cloud-header>svg{width:29px}.jl-cloud-header>span{font-size:13px}.jl-cloud-header small{font-size:7px}.jl-scene-caption>span:last-child,.jl-map-caption>span:last-child{display:none}.jl-destinations>a{flex-direction:column;align-items:flex-start;gap:11px}.jl-destinations strong{font-size:12px}.jl-cloud-hero{grid-template-columns:1fr}.jl-cloud-illustration{grid-row:1;margin:-15px auto -40px;max-width:320px;pointer-events:none}.jl-cloud-copy{padding:0 5px 20px}.jl-cloud-copy h1{font-size:44px}.jl-cloud-steps{gap:15px}.jl-cloud-steps>article{padding:0 15px 0 0}.jl-cloud-steps>article>span:first-child{margin-bottom:10px}.jl-cloud-steps p{font-size:13px}.jl-cloud-steps a{font-size:11px}.jl-future-layout{grid-template-columns:1fr;padding-top:5px;gap:0}.jl-future-illustration{max-width:360px;margin:0 auto}.jl-future-copy{padding:15px 0 0}.jl-future-copy h1{font-size:42px}.jl-future-foot{flex-wrap:wrap;gap:13px}.jl-future-foot>span{width:100%;margin:0}.jl-future-foot a{font-size:10px}}
+@media(max-width:650px){.vx-main.jl-main{padding:16px 12px}.jl-world{border-radius:15px;padding:24px 17px 0}.jl-intro-heading,.jl-map-heading{margin-bottom:21px}.jl-world h1{font-size:38px}.jl-world .jl-eyebrow{font-size:8px;letter-spacing:.11em;margin-bottom:11px}.jl-intro-copy{font-size:13px;margin-top:12px}.jl-entrance-scene{margin:0 -9px}.jl-entrance-art{border-radius:12px}.jl-art-label{font-size:33px}.jl-art-kicker{font-size:12px}.jl-art-pill{font-size:17px}.jl-art-small{font-size:13px}.jl-scene-caption{padding:12px 9px 17px;font-size:10px}.jl-world-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr))}.jl-world-shortcuts a{min-height:58px;padding:12px;font-size:12px;gap:8px}.jl-world-shortcuts a:nth-child(2){border-right:0}.jl-world-shortcuts a:nth-child(n+3){border-top:1px solid #d9dec9}.jl-world-shortcuts a:nth-child(3){padding-left:0}.jl-world-shortcuts a>span{font-size:9px}.jl-map-heading{align-items:center;gap:10px;flex-wrap:wrap}.jl-map-heading h1{font-size:36px}.jl-map-heading .jl-intro-copy{max-width:240px}.jl-map-heading .jl-back{margin-bottom:15px;font-size:11px}.jl-cloud-header{min-width:auto;padding:8px 11px;gap:7px;border-radius:12px;margin-left:auto}.jl-cloud-header>svg{width:24px;height:26px}.jl-cloud-header>span{font-size:12px}.jl-cloud-header small{display:none}.jl-map-scene{margin:0 -9px}.jl-map-art{border-radius:12px}.jl-map-caption{padding:12px 9px 16px;font-size:9px}.jl-destinations{grid-template-columns:1fr}.jl-destinations>a{flex-direction:row;align-items:center;border-right:0;border-bottom:1px solid #d9dec9;padding:16px 0!important;gap:14px}.jl-destinations strong{font-size:14px}.jl-destinations a>div>span{font-size:12px;margin-top:3px}.jl-destination-icon{width:43px;height:43px}.jl-destination-number{display:block;font-size:10px}.jl-subpage-top{padding-bottom:15px;gap:8px}.jl-subpage-top .jl-back{font-size:11px}.jl-status-pill{font-size:8px;padding:5px 7px}.jl-cloud-hero{padding-top:0;min-height:0}.jl-cloud-illustration{max-width:280px;margin:0 auto -20px}.jl-cloud-copy{padding:0 0 6px}.jl-cloud-copy h1{font-size:41px}.jl-cloud-copy>p:not(.jl-eyebrow):not(.jl-availability){font-size:15px;line-height:1.75;margin:18px 0 22px}.jl-cloud-actions{gap:8px 15px}.jl-action{font-size:13px;min-height:46px;padding:12px 15px}.jl-quiet-action{font-size:12px;min-height:44px}.jl-availability{font-size:10px;margin-top:17px;line-height:1.7}.jl-cloud-steps{grid-template-columns:1fr;gap:0;padding:0;margin-top:6px;margin-bottom:17px}.jl-cloud-steps>article{padding:23px 0!important;border-right:0;border-bottom:1px solid #d9dec9;position:relative}.jl-cloud-steps>article:last-child{border:0}.jl-cloud-steps>article>span:first-child{position:absolute;right:0;top:24px;font-size:23px}.jl-cloud-steps h2{font-size:24px;padding-right:30px}.jl-cloud-steps p{font-size:14px;margin:10px 0 12px;max-width:290px}.jl-cloud-steps a{font-size:12px;min-height:36px;display:flex;align-items:center}.jl-cloud-note{font-size:10px;text-align:left}.jl-future-illustration{max-width:310px;margin:-1px auto 0}.jl-future-layout{padding-bottom:24px}.jl-future-copy{padding-top:10px}.jl-future-copy h1{font-size:37px}.jl-future-copy>p:not(.jl-eyebrow){font-size:14px;margin:18px 0}.jl-future-status{margin:20px 0}.jl-future-status div>span{font-size:11px}.jl-future-foot{padding:20px 0;gap:16px}.jl-future-foot>span{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.jl-map-cloud,.jl-waypoint-halo,.jl-floating-cloud{animation:none!important}.jl-scene-link .jl-segment,.jl-heart-window>g,.jl-road-outline,.jl-road-fill,.jl-board-sign>g,.jl-map-stop>g{transition:none!important}}
+/* Text stays readable when the scene becomes compact. SVG labels are supplemented by these links. */
+.jl-intro-copy,.jl-cloud-copy>p:not(.jl-eyebrow):not(.jl-availability),.jl-future-copy>p:not(.jl-eyebrow){font-size:16px}
+.jl-world-shortcuts a,.jl-destinations strong,.jl-action,.jl-quiet-action,.jl-future-copy .jl-action,.jl-future-copy .jl-quiet-action,.jl-cloud-steps a,.jl-back{font-size:14px}
+.jl-destinations a>div>span,.jl-cloud-steps p{font-size:14px}
+.jl-scene-caption,.jl-map-caption,.jl-cloud-note,.jl-availability,.jl-future-foot>a{font-size:12px}
+.jl-world .jl-eyebrow{font-size:11px}
+.jl-back,.jl-cloud-steps a,.jl-future-foot>a{min-height:44px;align-items:center;display:inline-flex}
+@media(max-width:1180px){.jl-world-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr))}.jl-world-shortcuts a:nth-child(2){border-right:0}.jl-world-shortcuts a:nth-child(n+3){border-top:1px solid #d9dec9}.jl-world-shortcuts a:nth-child(3){padding-left:0}.jl-destinations strong{font-size:14px}.jl-destinations a>div>span{font-size:12px}}
+@media(max-width:650px){.jl-world-shortcuts a{font-size:13px}.jl-scene-caption,.jl-map-caption{font-size:11px}.jl-back{font-size:13px}.jl-map-heading .jl-back,.jl-subpage-top .jl-back{font-size:13px}.jl-world .jl-eyebrow{font-size:10px}.jl-destinations a>div>span{font-size:13px}.jl-future-foot>a{font-size:12px}.jl-cloud-copy h1{font-size:39px}.jl-availability{font-size:12px}}
+
+/* Legible navigation outside the scaled illustration. */
+.jl-eyebrow,.jl-compass>span,.jl-scene-caption,.jl-map-caption,.jl-world-shortcuts a>span,.jl-cloud-header small,.jl-status-pill,.jl-destination-number{font-size:12px}.jl-intro-copy{font-size:16px}.jl-world-shortcuts a,.jl-back,.jl-destinations a>div>span{font-size:14px}.jl-destinations strong{font-size:16px}

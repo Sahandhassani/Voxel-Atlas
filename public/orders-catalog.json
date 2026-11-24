@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-24",
+  "orders": [
+    {
+      "id": "01",
+      "name": "Intro",
+      "title": "The illustrated entrance",
+      "status": "LIVE_DEMO",
+      "route": "/",
+      "summary": "A segmented landscape with a heart-shaped central window connects the workspace.",
+      "requirements": [
+        "Intro.heart — A human-inspired heart window in the center opens the synthesis workspace.",
+        "Intro.greenSegment — The green landscape and winding snake-like road open Linkers.",
+        "Intro.upperSegments — University, research, medical imaging, and an imaginary market connect to their sections.",
+        "Intro.sea — The sea and child motif link to future work."
+      ],
+      "nextSteps": [
+        "Refine the illustrated segments as the destinations develop."
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Linkers",
+      "title": "Linkers coastal journey",
+      "status": "LIVE_DEMO",
+      "route": "/linkers",
+      "summary": "An interactive coastal map turns the blue road, cloud, and Kuzey Marmara sign into destinations.",
+      "requirements": [
+        "Linkers.road — Follow the blue winding road to the future-work page.",
+        "Linkers.cloud — Open the next-step cloud page from the header or illustration.",
+        "Linkers.board — Use the Kuzey Marmara sign to reach the browser games."
+      ],
+      "nextSteps": [
+        "Add new destinations when their corresponding workspaces are ready."
+      ]
+    },
+    {
+      "id": "03",
+      "name": "BrowserGames",
+      "title": "Kuzey Marmara games",
+      "status": "LIVE_DEMO",
+      "route": "/games",
+      "summary": "Play an original resource board game or a synthetic-market trading game in the browser.",
+      "requirements": [
+        "BrowserGames.board — Roll, gather resources, and build stations on an original board.",
+        "BrowserGames.market — Practice trading against invented market prices using imaginary coins.",
+        "BrowserGames.expansion — Consider more small web games inspired by familiar board and card mechanics."
+      ],
+      "nextSteps": [
+        "Choose the next game to build; multiplayer and additional game types are not connected."
+      ]
+    },
+    {
+      "id": "04",
+      "name": "AISynthesis",
+      "title": "MRI synthesis studio",
+      "status": "LIVE_DEMO",
+      "route": "/synthesis",
+      "summary": "Choose a model workflow and dataset, spend demo credits, and download its matching Python code.",
+      "requirements": [
+        "AISynthesis.selection — Choose a named model workflow without writing code.",
+        "AISynthesis.code — Generate downloadable Python code and configuration for the selection.",
+        "AISynthesis.output — Inspect paired synthetic demonstration volumes in the MRI explorer.",
+        "AISynthesis.inference — A real trained-model inference service remains to be connected; current outputs are prepared demonstrations."
+      ],
+      "nextSteps": [
+        "Supply validated model weights, runtime requirements, and inference hosting before enabling real synthesis."
+      ]
+    },
+    {
+      "id": "05",
+      "name": "DemoTokens",
+      "title": "Imaginary token wallet",
+      "status": "LIVE_DEMO",
+      "route": "/synthesis",
+      "summary": "Demo credits can be replenished and spent on synthesis demonstrations; they have no monetary value.",
+      "requirements": [
+        "DemoTokens.balance — Show the current account or guest credit balance.",
+        "DemoTokens.refill — Add imaginary credits through the demo refill action.",
+        "DemoTokens.ledger — Charge each synthesis request once and preserve the resulting job.",
+        "DemoTokens.value — No real payments, cryptocurrency, redemption, or cash value."
+      ],
+      "nextSteps": [
+        "Keep demo credits distinct from any future paid AI service usage."
+      ]
+    },
+    {
+      "id": "06",
+      "name": "FederatedLab",
+      "title": "Federated learning lab",
+      "status": "LIVE_DEMO",
+      "route": "/federated",
+      "summary": "Select datasets, prepare a federated configuration, and manage private dataset uploads and downloads.",
+      "requirements": [
+        "FederatedLab.datasets — Choose built-in datasets or upload, import, and download private datasets through the dataset library.",
+        "FederatedLab.configuration — Set aggregation strategy, clients, rounds, and local epochs; export the configuration.",
+        "FederatedLab.training — Real distributed training and participating compute clients remain future work.",
+        "FederatedLab.documents — The lab links to the policies and documentation roadmap in Orders; public policy pages and government documentation remain planned under VaultPolicies."
+      ],
+      "nextSteps": [
+        "Connect training infrastructure and implement the policies and government documentation areas described in the linked roadmap."
+      ]
+    },
+    {
+      "id": "07",
+      "name": "MRIExplorer",
+      "title": "MRI explorer",
+      "status": "LIVE_DEMO",
+      "route": "/viewer.html",
+      "summary": "Explore anatomical reference and synthetic volumes with linked slice views and a 3D viewer.",
+      "requirements": [
+        "MRIExplorer.views — Navigate axial, coronal, sagittal, and 3D views.",
+        "MRIExplorer.localFiles — Open compatible local volumes in the browser.",
+        "MRIExplorer.privateFiles — View the signed-in account's saved datasets.",
+        "MRIExplorer.purpose — Educational and research visualization; no diagnostic model is connected."
+      ],
+      "nextSteps": [
+        "Extend supported research workflows as appropriate datasets and models are supplied."
+      ]
+    },
+    {
+      "id": "08",
+      "name": "GeneticsAndEEG",
+      "title": "Genetics & EEG research",
+      "status": "PRIVATE_FUTURE_WORK",
+      "route": "/admin",
+      "summary": "Private owner-managed research drafts for genetic mutation classification, EEG, and collaboration opportunities.",
+      "requirements": [
+        "GeneticsAndEEG.genetics — Define the mutation-classification research problem, datasets, and evaluation plan.",
+        "GeneticsAndEEG.eeg — Define the signal-processing and EEG learning experiments.",
+        "GeneticsAndEEG.opportunities — Keep proposed collaboration and funding details inside the owner workspace.",
+        "GeneticsAndEEG.access — Require verified owner access and the administration key."
+      ],
+      "nextSteps": [
+        "The owner defines the research scope and approves any opportunity before publication."
+      ]
+    },
+    {
+      "id": "09",
+      "name": "Vault",
+      "title": "The vault challenge",
+      "status": "LIVE_DEMO",
+      "route": "/vault",
+      "summary": "A signed-in educational puzzle awards a one-time imaginary-credit reward.",
+      "requirements": [
+        "Vault.access — Sign in to open the challenge and attach progress to the account.",
+        "Vault.challenge — Solve an educational puzzle to receive the demo reward once.",
+        "Vault.prize — Any future real prize needs separate rules and funding; the current reward has no cash value.",
+        "Vault.policy — The vault links to the policies and documentation roadmap in Orders. The separate policy section remains planned."
+      ],
+      "nextSteps": [
+        "Build the VaultPolicies section described in the linked roadmap and define any future challenge expansion."
+      ]
+    },
+    {
+      "id": "10",
+      "name": "VaultPolicies",
+      "title": "Policies & documentation",
+      "status": "TODO",
+      "route": "/vault/policy",
+      "summary": "Planned public policies, a verified certification register, and a separate government document area.",
+      "requirements": [
+        "VaultPolicies.public — Create website terms, vault rules, privacy and data-use information, storage/cookie information, demo-token rules, and research/dataset-use policies.",
+        "VaultPolicies.regulations — Identify applicable jurisdictions and add sourced regulatory references before making compliance claims.",
+        "VaultPolicies.certifications — List certifications only when their issuer, scope, reference number, dates, and verification evidence have been provided. No certifications have been supplied.",
+        "VaultPolicies.documents — Make designated public documentation available to visitors.",
+        "VaultPolicies.government — Plan /government/documents for approved government accounts with database-assigned roles and server-side document permissions.",
+        "VaultPolicies.governmentAccess — Include owner approval and revocation, account/password or key authentication, and access history for restricted documents.",
+        "VaultPolicies.links — Link the policy and document areas from Vault and FederatedLab."
+      ],
+      "nextSteps": [
+        "Supply the organization details, operating jurisdictions, official evidence, and documents to publish.",
+        "Build the restricted account and document controls before accepting government-only files."
+      ]
+    },
+    {
+      "id": "11",
+      "name": "RedRoom",
+      "title": "Red Room member space",
+      "status": "PRIVATE_DEMO",
+      "route": "/red-room",
+      "summary": "An invitation-only member lounge protected by account sign-in, site membership ID, and a room password.",
+      "requirements": [
+        "RedRoom.login — Require a signed-in member account and the owner-managed room password.",
+        "RedRoom.memberId — Use the site-issued membership ID; the demonstration does not collect passport numbers or identity documents.",
+        "RedRoom.access — Keep private room access separate from the public learning pages."
+      ],
+      "nextSteps": [
+        "The owner configures room access and decides which member research materials to include."
+      ]
+    },
+    {
+      "id": "12",
+      "name": "ResearchJournal",
+      "title": "Research journal",
+      "status": "LIVE_DEMO",
+      "route": "/research",
+      "summary": "Browse a curated publication and researcher catalog, source links, and downloadable citations.",
+      "requirements": [
+        "ResearchJournal.people — Show the participating researchers and available scholarly profile links.",
+        "ResearchJournal.papers — Include the supplied MRI synthesis, directional market prediction, and SANS research entries with source and verification information.",
+        "ResearchJournal.discovery — Search and filter publications by researcher and topic.",
+        "ResearchJournal.sync — The catalog is curated; automatic complete Google Scholar synchronization remains unconnected."
+      ],
+      "nextSteps": [
+        "Verify new publications and profile affiliations before adding them to the journal."
+      ]
+    },
+    {
+      "id": "13",
+      "name": "InstallableApp",
+      "title": "Installable web app",
+      "status": "WEB_APP_AVAILABLE",
+      "route": "/download",
+      "summary": "Install the web experience on compatible desktop and mobile browsers.",
+      "requirements": [
+        "InstallableApp.web — Provide browser installation and home-screen access.",
+        "InstallableApp.devices — Support responsive use on modern MacBooks, phones, and other compatible devices.",
+        "InstallableApp.native — A C-based desktop program or separate native mobile binary has not been built.",
+        "InstallableApp.privateData — Keep sign-in, private records, and server actions online."
+      ],
+      "nextSteps": [
+        "Define a separate native application scope if a native download is needed."
+      ]
+    },
+    {
+      "id": "14",
+      "name": "HPC_VPN",
+      "title": "HPC & VPN hosting",
+      "status": "TODO",
+      "route": null,
+      "summary": "Plan a university or HPC deployment accessible only to approved VPN users.",
+      "requirements": [
+        "HPC_VPN.hosting — Establish whether the institution permits a web server on the selected HPC or affiliated host.",
+        "HPC_VPN.access — Design a deployment restricted to authorized VPN users.",
+        "HPC_VPN.operations — Define institutional hosting, authentication, storage, and compute arrangements."
+      ],
+      "nextSteps": [
+        "Obtain the institution's hosting requirements and an approved deployment target. The current demonstration remains on its existing public host."
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Business",
+      "title": "Business & personal collection",
+      "status": "TODO",
+      "route": "/business",
+      "summary": "A visual private inventory for property, vehicles, valuables, hardware, expenses, and a custom leather bag.",
+      "requirements": [
+        "Business.assets — Visually present cars, houses, yachts, diamonds, gold, and silver using supplied photos and records.",
+        "Business.wallet — Record manually entered USD and CAD balances and international expenses with dates, countries, currencies, amounts, descriptions, and categories.",
+        "Business.hardware — Organize watches, wearables, phones, SIM cards, and associated records.",
+        "Business.documentBag — Showcase a self-designed leather document bag with AI-assisted text and the requested Taylor Swift-inspired design or lettering, without claiming an official affiliation.",
+        "Business.documentBag.spotifyButton — Add a My Spotify button that opens the owner's supplied Spotify profile or selected playlist; the destination has not been provided.",
+        "Business.access — Keep real personal inventory and wallet details private to the owner. Any public preview uses clearly identified invented items.",
+        "Business.data — Real asset inventories, photos, account balances, and banking connections have not been supplied."
+      ],
+      "nextSteps": [
+        "Build the visual /business page and private inventory records.",
+        "Supply the first asset photos, the bag design direction, and the Spotify destination.",
+        "Clarify the intended additional wallet label mentioned in the original request."
+      ]
+    },
+    {
+      "id": "16",
+      "name": "MATLAB",
+      "title": "MATLAB workspace",
+      "status": "SCOPE_TO_DEFINE",
+      "route": null,
+      "summary": "MATLAB is on the order list; its intended page and workflow still need to be defined.",
+      "requirements": [
+        "MATLAB.scope — Decide whether this means downloadable scripts, analysis examples, a learning page, or an execution integration.",
+        "MATLAB.runtime — Determine any required MATLAB environment and licensing after the scope is chosen."
+      ],
+      "nextSteps": [
+        "Describe the MATLAB task, expected inputs, and desired outputs."
+      ]
+    },
+    {
+      "id": "17",
+      "name": "CentralAIChat",
+      "title": "Central AI chat",
+      "status": "AI_SETUP_REQUIRED",
+      "route": "/chat",
+      "summary": "A central chat page with private saved conversations and a ChatGPT tool bridge. Automatic in-app AI replies await an API service connection.",
+      "requirements": [
+        "CentralAIChat.orders — Discuss any order using its stable name or ID and bring its requirements into the conversation.",
+        "CentralAIChat.history — Save conversations privately for each signed-in account through the app's backend.",
+        "CentralAIChat.connection — Provide authorized tools for ChatGPT to read the order list and the signed-in user’s saved conversations and post replies to that user’s chat.",
+        "CentralAIChat.replies — The interface and backend are prepared; automatic in-app AI replies require a securely configured AI service credential.",
+        "CentralAIChat.context — Share the project requirements and explicitly accessed saved chats. This does not automatically synchronize the live history of this or another ChatGPT conversation."
+      ],
+      "nextSteps": [
+        "Configure the AI service credential securely, verify automatic replies, and confirm the ChatGPT connection before marking those capabilities active."
+      ]
+    },
+    {
+      "id": "18",
+      "name": "TerminalAndLogs",
+      "title": "Terminal & job logs",
+      "status": "TODO",
+      "route": "/terminal",
+      "summary": "A planned private administration terminal and read-only job-log view for an approved Linux or HPC server.",
+      "requirements": [
+        "TerminalAndLogs.shell — Offer an interactive SSH-like command line through an authenticated backend connected to the selected Linux or HPC server.",
+        "TerminalAndLogs.target — Select the server and establish an authorized authentication session first. A webpage does not receive direct access to a visitor’s laptop shell.",
+        "TerminalAndLogs.logs — Show command output and job logs in a separate read-only view.",
+        "TerminalAndLogs.access — Restrict terminal access to administrators, isolate each user’s session, clean up disconnected sessions, and apply VPN restrictions where required by institutional policy.",
+        "TerminalAndLogs.ai — Let AI explain or draft commands. Any future execution must be explicitly authorized, visible, and recorded; automatic execution is not implemented.",
+        "TerminalAndLogs.state — No server has been supplied, no terminal connection is active, and no commands have been run through this feature."
+      ],
+      "nextSteps": [
+        "Provide the approved server or HPC target and its connection requirements.",
+        "Build the authenticated terminal and log views before enabling any command execution."
+      ]
+    },
+    {
+      "id": "19",
+      "name": "AIEnsemble",
+      "title": "AI ensemble workspace",
+      "status": "TODO",
+      "route": "/ensemble",
+      "summary": "A planned workspace that asks several AI providers the same task, shows their individual conversations, and compares their answers in a combined response.",
+      "requirements": [
+        "AIEnsemble.providers — Consider OpenAI, Gemini, and Claude through supported provider APIs with the required credentials and account access. Existing consumer chat accounts do not automatically connect these services.",
+        "AIEnsemble.parallel — Send the same selected prompt or topic to the configured providers in parallel and display a separate conversation box for each provider.",
+        "AIEnsemble.synthesis — Let a coordinator compare and combine responses while preserving disagreements, available citations, model attribution, provider errors, and incomplete results.",
+        "AIEnsemble.students — Support private student accounts and appropriately scoped course sessions; define sharing and participation before pooling student conversations or data.",
+        "AIEnsemble.mriTask — Treat the requested 159 slices as a proposed MRI task configuration whose exact meaning still needs clarification. Input dimensions, datasets, model choices, and compute resources have not been supplied.",
+        "AIEnsemble.jobs — Show task queues, progress, cancellation, and results when real execution infrastructure is connected. No ensemble model inference is currently running.",
+        "AIEnsemble.federated — Keep multi-model answer comparison distinct from federated learning, which has its own data, training, and infrastructure requirements.",
+        "AIEnsemble.evaluation — Evaluate the combined answer against task-specific criteria. Combining providers does not guarantee correctness, agreement, or superior results.",
+        "AIEnsemble.state — Provider credentials are not configured. The prepared central chat is a separate feature and is not an active multi-provider ensemble."
+      ],
+      "nextSteps": [
+        "Choose the first providers and establish supported API connections.",
+        "Clarify the 159-slice task and define its input, expected output, evaluation criteria, and authorized compute resources.",
+        "Build the parallel conversations, coordinator, and task controls after those requirements are confirmed."
+      ]
+    },
+    {
+      "id": "20",
+      "name": "RealtimeVoice",
+      "title": "Real-time voice conversations",
+      "status": "TODO",
+      "route": "/voice",
+      "summary": "Planned spoken conversations with microphone input, AI audio replies, interruption controls, and a typed-chat fallback.",
+      "requirements": [
+        "RealtimeVoice.conversation — Support bidirectional real-time speech input and audio output through compatible provider APIs.",
+        "RealtimeVoice.controls — Request explicit microphone permission and provide clear listening, mute, stop, and interruption controls.",
+        "RealtimeVoice.fallback — Keep typed input and readable replies available when voice is unavailable or the user prefers text.",
+        "RealtimeVoice.providers — Verify each selected provider’s supported speech and real-time APIs before claiming compatibility or enabling a voice.",
+        "RealtimeVoice.siri — Consider Siri or Apple voice entry only where supported platform capabilities allow it; do not assume a direct Siri conversation API or automatic account integration.",
+        "RealtimeVoice.ensemble — Coordinate voice with the planned AI ensemble while preserving which model produced each answer.",
+        "RealtimeVoice.execution — Spoken commands may be explained or drafted. Any future server execution follows the separate explicit authorization and visible execution controls in TerminalAndLogs, order 18.",
+        "RealtimeVoice.state — Voice services and provider credentials are not configured; no live microphone or audio conversation is connected."
+      ],
+      "nextSteps": [
+        "Choose a supported speech provider and configure the required API connection.",
+        "Define browser and device targets, then build and verify permission, interruption, audio playback, and text fallback behavior."
+      ]
+    }
+  ]
+}

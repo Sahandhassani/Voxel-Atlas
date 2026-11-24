@@ -1,0 +1,128 @@
+{
+  "name": "Synthetic Brain Lab",
+  "description": "Invented brain-shaped MRI-like volumes for testing slice navigation, contrast changes, volume rendering, and a region overlay.",
+  "disclaimer": "SYNTHETIC DEMONSTRATION \u2014 not a real MRI, not a validated anatomical model, and not suitable for diagnosis or anatomical assessment. Contrast patterns are illustrative, not quantitative MRI signals.",
+  "dimensions": [
+    128,
+    128,
+    128
+  ],
+  "voxel_spacing_mm": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "voxel_type": "uint8",
+  "affine_ras": [
+    [
+      1.5,
+      0,
+      0,
+      -95.25
+    ],
+    [
+      0,
+      1.5,
+      0,
+      -95.25
+    ],
+    [
+      0,
+      0,
+      1.5,
+      -95.25
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "world_orientation": "RAS+",
+  "generator_seed": 4107,
+  "patients": [
+    {
+      "id": "demo-001",
+      "label": "Synthetic study 001",
+      "source": "Generated geometric phantom; no real patient",
+      "modalities": {
+        "T1": {
+          "file": "demo-001-t1.nii.gz",
+          "bytes": 189167
+        },
+        "T1ce": {
+          "file": "demo-001-t1ce.nii.gz",
+          "bytes": 189844
+        },
+        "T2": {
+          "file": "demo-001-t2.nii.gz",
+          "bytes": 189469
+        },
+        "FLAIR": {
+          "file": "demo-001-flair.nii.gz",
+          "bytes": 190793
+        }
+      },
+      "segmentation": {
+        "file": "demo-001-region.nii.gz",
+        "bytes": 2560,
+        "labels": {
+          "0": "Background",
+          "1": "Simulated region of interest"
+        }
+      },
+      "simulated_roi_center_ras_mm": [
+        27.0,
+        12.0,
+        21.0
+      ],
+      "simulated_roi_radii_mm": [
+        12.0,
+        15.0,
+        11.0
+      ]
+    },
+    {
+      "id": "demo-002",
+      "label": "Synthetic study 002",
+      "source": "Generated geometric phantom; no real patient",
+      "modalities": {
+        "T1": {
+          "file": "demo-002-t1.nii.gz",
+          "bytes": 189645
+        },
+        "T1ce": {
+          "file": "demo-002-t1ce.nii.gz",
+          "bytes": 190104
+        },
+        "T2": {
+          "file": "demo-002-t2.nii.gz",
+          "bytes": 188495
+        },
+        "FLAIR": {
+          "file": "demo-002-flair.nii.gz",
+          "bytes": 189600
+        }
+      },
+      "segmentation": {
+        "file": "demo-002-region.nii.gz",
+        "bytes": 2585,
+        "labels": {
+          "0": "Background",
+          "1": "Simulated region of interest"
+        }
+      },
+      "simulated_roi_center_ras_mm": [
+        -25.0,
+        -13.0,
+        27.0
+      ],
+      "simulated_roi_radii_mm": [
+        10.0,
+        12.0,
+        13.0
+      ]
+    }
+  ]
+}

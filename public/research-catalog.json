@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-24",
+  "title": "Voxel Atlas Research Collective",
+  "coverageNote": "A curated starting collection: three contributor-supplied seed works plus selected verified publications. This is not a complete Google Scholar import and is not automatically synchronized.",
+  "scholarCoverage": {
+    "verifiedProfileLinks": 3,
+    "unresolvedProfileLinks": 3,
+    "fullBibliographiesImported": false,
+    "limitation": "Google Scholar returned HTTP 429 for direct profile retrieval. Verified author-linked profile URLs are supplied without scraping, invented IDs, citation counts or completeness claims."
+  },
+  "people": [
+    {
+      "id": "sahand",
+      "name": "Sahand Hassanizorgabad",
+      "initials": "SH",
+      "affiliation": "Koç University · Computational Sciences and Engineering",
+      "affiliationStatus": "verified_paper_affiliation_2026",
+      "role": "Graduate researcher",
+      "roleStatus": "author_website",
+      "focus": [
+        "Medical imaging",
+        "Federated learning",
+        "Machine learning"
+      ],
+      "scholarUrl": null,
+      "scholarStatus": "not_verified",
+      "profileUrl": "https://sahandhassani.com/",
+      "sourceUrls": [
+        "https://api.crossref.org/works/10.1109/UBMK71847.2026.11745142",
+        "https://sahandhassani.com/"
+      ],
+      "notes": "No exact public Google Scholar profile URL was verified. MRI paper affiliation is verified in the IEEE Crossref deposit.",
+      "publicationIds": [
+        "mri-federated-2026",
+        "financial-ensemble-2025",
+        "sans-transfer-2026"
+      ]
+    },
+    {
+      "id": "neslihan",
+      "name": "Neslihan Gökmen",
+      "alternateNames": [
+        "Neslihan Gökmen İnan",
+        "Neslihan Gokmen Inan"
+      ],
+      "initials": "NG",
+      "affiliation": "Koç University · Computer Engineering",
+      "affiliationStatus": "verified_paper_affiliation_2026",
+      "role": "Research collaborator",
+      "roleStatus": "seed_paper_coauthor",
+      "focus": [
+        "Medical image analysis",
+        "Deep learning",
+        "Statistics"
+      ],
+      "scholarUrl": null,
+      "scholarStatus": "not_verified",
+      "profileUrl": "https://dergipark.org.tr/en/pub/@neslihan-gokmen-inan",
+      "orcid": "0000-0002-7855-1297",
+      "sourceUrls": [
+        "https://api.crossref.org/works/10.1109/UBMK71847.2026.11745142",
+        "https://dergipark.org.tr/en/pub/@neslihan-gokmen-inan",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/lsm.70020"
+      ],
+      "notes": "Primary publisher records connect the Gökmen and Gökmen İnan name forms through ORCID. No exact Scholar profile URL verified.",
+      "publicationIds": [
+        "mri-federated-2026",
+        "thyroid-resnet-unet-2024"
+      ]
+    },
+    {
+      "id": "ozan",
+      "name": "Ozan Kocadağlı",
+      "initials": "OK",
+      "affiliation": "Mimar Sinan Fine Arts University · Statistics",
+      "affiliationStatus": "verified_paper_affiliation_2026",
+      "role": "Research collaborator",
+      "roleStatus": "seed_paper_coauthor",
+      "focus": [
+        "Statistical learning",
+        "Optimization",
+        "Medical imaging"
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?user=9BV6HCoAAAAJ&hl=en",
+      "scholarStatus": "verified_author_link",
+      "profileUrl": "https://tr.linkedin.com/in/ozan-kocada%C4%9Fl%C4%B1-3925b86b",
+      "orcid": "0000-0003-4354-7383",
+      "sourceUrls": [
+        "https://api.crossref.org/works/10.1109/UBMK71847.2026.11745142",
+        "https://tr.linkedin.com/in/ozan-kocada%C4%9Fl%C4%B1-3925b86b"
+      ],
+      "notes": "Exact Scholar URL is linked by the author on his public LinkedIn page. The complete Scholar publication list has not been imported.",
+      "publicationIds": [
+        "mri-federated-2026",
+        "thyroid-resnet-unet-2024"
+      ]
+    },
+    {
+      "id": "gul",
+      "name": "Gül İnan",
+      "initials": "Gİ",
+      "affiliation": "Koç University · Mathematics (2026 paper affiliation)",
+      "affiliationStatus": "verified_paper_affiliation_2026",
+      "role": "Statistician",
+      "roleStatus": "author_website",
+      "focus": [
+        "Statistics",
+        "Longitudinal data",
+        "Bayesian modeling"
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?user=0zuxPXAAAAAJ&hl=en",
+      "scholarStatus": "verified_author_link",
+      "profileUrl": "https://gulinan.github.io/",
+      "orcid": "0000-0002-3981-9211",
+      "sourceUrls": [
+        "https://api.crossref.org/works/10.1109/UBMK71847.2026.11745142",
+        "https://gulinan.github.io/publication/",
+        "https://gulinan.github.io/"
+      ],
+      "notes": "Her personal site describes an older Istanbul Technical University affiliation; the 2026 MRI paper lists Koç University. Displayed affiliation is explicitly paper-specific. Scholar blocked automated retrieval (HTTP 429); author-linked profile URL is verified.",
+      "publicationIds": [
+        "mri-federated-2026",
+        "migraine-bayesian-2023"
+      ]
+    },
+    {
+      "id": "semih",
+      "name": "Semih Yumuşak",
+      "initials": "SY",
+      "affiliation": "TOBB ETÜ · Computer Engineering",
+      "affiliationStatus": "verified_current_institutional_directory",
+      "role": "Assistant Professor",
+      "roleStatus": "institutional_directory",
+      "focus": [
+        "Knowledge graphs",
+        "Large language models",
+        "Semantic web"
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?user=Esj8FWgAAAAJ",
+      "scholarStatus": "verified_author_link",
+      "profileUrl": "https://semihyumusak.com.tr/",
+      "sourceUrls": [
+        "https://www.etu.edu.tr/en/bolum/computer-engineering/akademik-kadro?o=ad",
+        "https://semihyumusak.com.tr/"
+      ],
+      "notes": "Current institutional directory confirms TOBB ETÜ. University of Southampton is the historical affiliation on the 2025 SSRN record. Scholar blocked automated retrieval (HTTP 429); author-linked URL is verified.",
+      "publicationIds": [
+        "financial-ensemble-2025",
+        "pubsub-networks-2021"
+      ]
+    },
+    {
+      "id": "rasha",
+      "name": "Rasha Ghandour",
+      "initials": "RG",
+      "affiliation": "Koç University (IAC 2026 affiliation)",
+      "affiliationStatus": "verified_conference_affiliation_2026",
+      "role": "Research collaborator",
+      "roleStatus": "seed_paper_coauthor",
+      "focus": [
+        "Space medicine",
+        "Retinal imaging"
+      ],
+      "scholarUrl": null,
+      "scholarStatus": "not_verified",
+      "profileUrl": "https://iafastro.directory/iac/paper/id/112052/abstract-pdf/IAC-26%2CA1%2CIP%2C168%2Cx112052.brief.pdf?2026-04-09.14%3A37%3A00=",
+      "sourceUrls": [
+        "https://iafastro.directory/iac/paper/id/112052/abstract-pdf/IAC-26%2CA1%2CIP%2C168%2Cx112052.brief.pdf?2026-04-09.14%3A37%3A00=",
+        "https://cdn.ku.edu.tr/cdn/files/mezuniyet/2026/mezuniyet-kitapcik/files/basic-html/page50.html"
+      ],
+      "notes": "R. Ghandour resolves to Rasha Ghandour in the official IAF abstract. No exact public Scholar profile URL verified.",
+      "publicationIds": [
+        "sans-transfer-2026"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "mri-federated-2026",
+      "title": "Federated Learning-Based MRI Modality Synthesis on TCGA-GBM",
+      "authors": [
+        {
+          "id": "sahand",
+          "name": "Sahand Hassanizorgabad"
+        },
+        {
+          "id": "neslihan",
+          "name": "Neslihan Gökmen"
+        },
+        {
+          "id": "ozan",
+          "name": "Ozan Kocadağlı"
+        },
+        {
+          "id": "gul",
+          "name": "Gül İnan"
+        }
+      ],
+      "year": 2026,
+      "type": "Conference paper",
+      "venue": "2026 11th International Conference on Computer Science and Engineering (UBMK)",
+      "pages": "191–196",
+      "doi": "10.1109/UBMK71847.2026.11745142",
+      "url": "https://ieeexplore.ieee.org/document/11745142",
+      "status": "Published conference paper",
+      "featured": true,
+      "seed": true,
+      "tags": [
+        "Medical imaging",
+        "Federated learning",
+        "MRI synthesis"
+      ],
+      "summary": "Research on synthesizing MRI modalities in TCGA-GBM using federated learning.",
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "title": "IEEE publisher metadata deposited in Crossref",
+            "url": "https://api.crossref.org/works/10.1109/UBMK71847.2026.11745142",
+            "kind": "publisher_metadata"
+          },
+          {
+            "title": "Author research portfolio",
+            "url": "https://sahandhassani.com/",
+            "kind": "author",
+            "refId": "turn971578843search0"
+          }
+        ],
+        "notes": "Exact title, author order, conference, pages, year, DOI and paper affiliations verified in the IEEE Crossref deposit. Direct IEEE HTML could not be retrieved in this session."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "verified",
+        "year": "verified",
+        "venue": "verified",
+        "pages": "verified",
+        "doi": "verified"
+      },
+      "bibtex": "@inproceedings{mrifederated2026,\n  title = {{Federated Learning-Based MRI Modality Synthesis on TCGA-GBM}},\n  author = {Sahand Hassanizorgabad and Neslihan Gökmen and Ozan Kocadağlı and Gül İnan},\n  year = {2026},\n  doi = {10.1109/UBMK71847.2026.11745142},\n  url = {https://ieeexplore.ieee.org/document/11745142},\n  booktitle = {2026 11th International Conference on Computer Science and Engineering (UBMK)},\n  pages = {191--196}\n}"
+    },
+    {
+      "id": "financial-ensemble-2025",
+      "title": "A Two-Layer Ensemble Architecture for Enhanced Directional Price Prediction in Financial Markets",
+      "authors": [
+        {
+          "id": "sahand",
+          "name": "Sahand Hassanizorgabad"
+        },
+        {
+          "id": "semih",
+          "name": "Semih Yumuşak"
+        }
+      ],
+      "year": 2025,
+      "type": "Preprint",
+      "venue": "SSRN",
+      "pages": null,
+      "doi": "10.2139/ssrn.5156285",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5156285",
+      "status": "SSRN preprint",
+      "featured": true,
+      "seed": true,
+      "tags": [
+        "Financial forecasting",
+        "Ensemble learning",
+        "Machine learning"
+      ],
+      "summary": "A two-layer ensemble approach for directional price prediction in financial markets.",
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "title": "SSRN publisher record",
+            "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5156285.pdf?abstractid=5156285",
+            "kind": "publisher",
+            "refId": "turn971578843search1"
+          },
+          {
+            "title": "SSRN metadata deposited in Crossref",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.5156285",
+            "kind": "publisher_metadata"
+          }
+        ],
+        "notes": "Title, both authors, year and DOI verified. SSRN is a preprint repository; this record does not establish peer-reviewed journal publication."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "verified",
+        "year": "verified",
+        "venue": "verified",
+        "doi": "verified"
+      },
+      "bibtex": "@misc{financialensemble2025,\n  title = {{A Two-Layer Ensemble Architecture for Enhanced Directional Price Prediction in Financial Markets}},\n  author = {Sahand Hassanizorgabad and Semih Yumuşak},\n  year = {2025},\n  doi = {10.2139/ssrn.5156285},\n  url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5156285},\n  howpublished = {SSRN}\n}"
+    },
+    {
+      "id": "sans-transfer-2026",
+      "title": "A Multi-Stage Transfer Learning Framework for the Predictive Risk Assessment of Spaceflight-Associated Neuro-Ocular Syndrome (SANS)",
+      "authors": [
+        {
+          "id": "sahand",
+          "name": "Sahand Hassanizorgabad"
+        },
+        {
+          "id": "rasha",
+          "name": "Rasha Ghandour"
+        }
+      ],
+      "year": 2026,
+      "type": "Conference presentation",
+      "venue": "77th International Astronautical Congress (IAC 2026)",
+      "pages": null,
+      "doi": null,
+      "url": "https://iafastro.directory/iac/paper/id/112052/abstract-pdf/IAC-26%2CA1%2CIP%2C168%2Cx112052.brief.pdf?2026-04-09.14%3A37%3A00=",
+      "status": "Conference abstract verified",
+      "featured": true,
+      "seed": true,
+      "paperId": "IAC-26,A1,IP,168,x112052",
+      "tags": [
+        "Space medicine",
+        "Transfer learning",
+        "Retinal imaging"
+      ],
+      "summary": "A multi-stage transfer-learning framework investigating predictive assessment of SANS risk.",
+      "verification": {
+        "status": "partially_verified",
+        "sources": [
+          {
+            "title": "Official IAF abstract, paper 112052",
+            "url": "https://iafastro.directory/iac/paper/id/112052/abstract-pdf/IAC-26%2CA1%2CIP%2C168%2Cx112052.brief.pdf?2026-04-09.14%3A37%3A00=",
+            "kind": "conference",
+            "refId": "turn971578843search7"
+          }
+        ],
+        "notes": "Title, conference and both author identities verified. The archived abstract lists Rasha Ghandour before Sahand Hassanizorgabad; displayed author order follows the contributor-supplied citation. Final proceedings author order and a DOI have not been verified."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "identities_verified_order_user_supplied",
+        "year": "verified",
+        "venue": "verified",
+        "doi": "not_found"
+      },
+      "sourceAuthorOrder": [
+        "Rasha Ghandour",
+        "Sahand Hassanizorgabad"
+      ],
+      "bibtex": "@misc{sanstransfer2026,\n  title = {{A Multi-Stage Transfer Learning Framework for the Predictive Risk Assessment of Spaceflight-Associated Neuro-Ocular Syndrome (SANS)}},\n  author = {Sahand Hassanizorgabad and Rasha Ghandour},\n  year = {2026},\n  url = {https://iafastro.directory/iac/paper/id/112052/abstract-pdf/IAC-26%2CA1%2CIP%2C168%2Cx112052.brief.pdf?2026-04-09.14%3A37%3A00=},\n  howpublished = {77th International Astronautical Congress (IAC 2026)},\n  note = {Author order follows contributor-supplied final citation; archived IAF abstract lists Rasha Ghandour first.}\n}"
+    },
+    {
+      "id": "thyroid-resnet-unet-2024",
+      "title": "Multi-class classification of thyroid nodules from automatic segmented ultrasound images: Hybrid ResNet based UNet convolutional neural network approach",
+      "authors": [
+        {
+          "id": "neslihan",
+          "name": "Neslihan Gökmen Inan"
+        },
+        {
+          "id": "ozan",
+          "name": "Ozan Kocadağlı"
+        },
+        {
+          "id": null,
+          "name": "Düzgün Yıldırım"
+        },
+        {
+          "id": null,
+          "name": "İsmail Meşe"
+        },
+        {
+          "id": null,
+          "name": "Özge Kovan"
+        }
+      ],
+      "year": 2024,
+      "type": "Journal article",
+      "venue": "Computer Methods and Programs in Biomedicine",
+      "volume": "243",
+      "issue": null,
+      "pages": "107921",
+      "doi": "10.1016/j.cmpb.2023.107921",
+      "url": "https://doi.org/10.1016/j.cmpb.2023.107921",
+      "status": "Published journal article",
+      "featured": false,
+      "seed": false,
+      "tags": [
+        "Medical imaging",
+        "Deep learning"
+      ],
+      "summary": "Hybrid ResNet and U-Net methods for thyroid nodule classification from ultrasound images.",
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "title": "Publisher metadata deposited in Crossref",
+            "url": "https://api.crossref.org/works/10.1016/j.cmpb.2023.107921",
+            "kind": "publisher_metadata"
+          }
+        ],
+        "notes": "Bibliographic metadata verified from the publisher Crossref deposit; included as a selected additional work, not a complete author bibliography."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "verified",
+        "year": "verified",
+        "venue": "verified",
+        "doi": "verified"
+      },
+      "bibtex": "@article{thyroidresnetunet2024,\n  title = {{Multi-class classification of thyroid nodules from automatic segmented ultrasound images: Hybrid ResNet based UNet convolutional neural network approach}},\n  author = {Neslihan Gökmen Inan and Ozan Kocadağlı and Düzgün Yıldırım and İsmail Meşe and Özge Kovan},\n  year = {2024},\n  doi = {10.1016/j.cmpb.2023.107921},\n  url = {https://doi.org/10.1016/j.cmpb.2023.107921},\n  journal = {Computer Methods and Programs in Biomedicine},\n  pages = {107921},\n  volume = {243}\n}"
+    },
+    {
+      "id": "migraine-bayesian-2023",
+      "title": "Bayesian joint modeling of patient-reported longitudinal data on frequency and duration of migraine",
+      "authors": [
+        {
+          "id": "gul",
+          "name": "Gül İNAN"
+        }
+      ],
+      "year": 2023,
+      "type": "Journal article",
+      "venue": "Hacettepe Journal of Mathematics and Statistics",
+      "volume": "52",
+      "issue": "3",
+      "pages": "795-807",
+      "doi": "10.15672/hujms.993075",
+      "url": "https://doi.org/10.15672/hujms.993075",
+      "status": "Published journal article",
+      "featured": false,
+      "seed": false,
+      "tags": [
+        "Statistics",
+        "Bayesian modeling"
+      ],
+      "summary": "Joint modeling of longitudinal patient-reported migraine frequency and duration.",
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "title": "Publisher metadata deposited in Crossref",
+            "url": "https://api.crossref.org/works/10.15672/hujms.993075",
+            "kind": "publisher_metadata"
+          }
+        ],
+        "notes": "Bibliographic metadata verified from the publisher Crossref deposit; included as a selected additional work, not a complete author bibliography."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "verified",
+        "year": "verified",
+        "venue": "verified",
+        "doi": "verified"
+      },
+      "bibtex": "@article{migrainebayesian2023,\n  title = {{Bayesian joint modeling of patient-reported longitudinal data on frequency and duration of migraine}},\n  author = {Gül İNAN},\n  year = {2023},\n  doi = {10.15672/hujms.993075},\n  url = {https://doi.org/10.15672/hujms.993075},\n  journal = {Hacettepe Journal of Mathematics and Statistics},\n  pages = {795--807},\n  volume = {52},\n  number = {3}\n}"
+    },
+    {
+      "id": "pubsub-networks-2021",
+      "title": "Low-diameter topic-based pub/sub overlay network construction with minimum–maximum node degree",
+      "authors": [
+        {
+          "id": "semih",
+          "name": "Semih Yumusak"
+        },
+        {
+          "id": null,
+          "name": "Sina Layazali"
+        },
+        {
+          "id": null,
+          "name": "Kasim Oztoprak"
+        },
+        {
+          "id": null,
+          "name": "Reza Hassanpour"
+        }
+      ],
+      "year": 2021,
+      "type": "Journal article",
+      "venue": "PeerJ Computer Science",
+      "volume": "7",
+      "issue": null,
+      "pages": "e538",
+      "doi": "10.7717/peerj-cs.538",
+      "url": "https://doi.org/10.7717/peerj-cs.538",
+      "status": "Published journal article",
+      "featured": false,
+      "seed": false,
+      "tags": [
+        "Networks",
+        "Computer science"
+      ],
+      "summary": "Construction of topic-based publish-subscribe overlay networks with degree constraints.",
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "title": "Publisher metadata deposited in Crossref",
+            "url": "https://api.crossref.org/works/10.7717/peerj-cs.538",
+            "kind": "publisher_metadata"
+          }
+        ],
+        "notes": "Bibliographic metadata verified from the publisher Crossref deposit; included as a selected additional work, not a complete author bibliography."
+      },
+      "fieldStatus": {
+        "title": "verified",
+        "authors": "verified",
+        "year": "verified",
+        "venue": "verified",
+        "doi": "verified"
+      },
+      "bibtex": "@article{pubsubnetworks2021,\n  title = {{Low-diameter topic-based pub/sub overlay network construction with minimum–maximum node degree}},\n  author = {Semih Yumusak and Sina Layazali and Kasim Oztoprak and Reza Hassanpour},\n  year = {2021},\n  doi = {10.7717/peerj-cs.538},\n  url = {https://doi.org/10.7717/peerj-cs.538},\n  journal = {PeerJ Computer Science},\n  pages = {e538},\n  volume = {7}\n}"
+    }
+  ]
+}
